@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DivisionGroups
 {
@@ -8,6 +9,9 @@ namespace DivisionGroups
         class Divition
         {
 
+            public List<string> students = new List<string>();
+            public List<string> topics = new List<string>();
+            
             public void checkValues(int countGroups, string pathStudents, string pathTopics)
             {
                 if (countGroups <= 0)
@@ -21,6 +25,30 @@ namespace DivisionGroups
                 }
 
                 Console.WriteLine("All is correct");
+
+            }
+
+            public void readFiles(int countGroups, string pathStudents, string pathTopics)
+            {
+                string line;
+
+                System.IO.StreamReader fileStudents = new System.IO.StreamReader(pathStudents);
+
+                while((line = fileStudents.ReadLine()) != null){
+                    students.Add(line);
+                } 
+
+                line = null;
+                System.IO.StreamReader fileTopics = new System.IO.StreamReader(pathTopics);
+
+                while((line = fileStudents.ReadLine()) != null){
+                    topics.Add(line);
+                }   
+
+                if (countGroups > students.Count){
+                    Console.Clear();
+                    throw new Exception("La cantidad de grupos no debe ser mayor que la de estudiantes");
+                }
 
             }
 
@@ -42,6 +70,7 @@ namespace DivisionGroups
             string pathTopics = Convert.ToString(Console.ReadLine());
 
             divition.checkValues(countGroups, pathStudents, pathTopics);
+            divition.readFiles(countGroups, pathStudents, pathTopics);
 
         }
     }
