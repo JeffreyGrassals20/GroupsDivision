@@ -53,6 +53,27 @@ namespace DivisionGroups
             }
 
 
+            public static int fact  (int n)
+            {
+
+                int i, f = 1; 
+
+                for(i = 1; i <= n; i++)
+                {
+                    f = f * i;
+                }
+
+                return f;
+            }
+
+
+            public double getStudentsPersistance (int groups, int students)
+            {
+                int npr = fact(students) / fact(students - groups);
+
+                return (100.0 / npr);
+            }
+
         }
 
         static void Main(string[] args)
