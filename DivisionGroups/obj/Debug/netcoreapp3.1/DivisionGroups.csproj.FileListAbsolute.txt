@@ -4,7 +4,6 @@ C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\bin\Debug\n
 C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\bin\Debug\netcoreapp3.1\DivisionGroups.runtimeconfig.dev.json
 C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\bin\Debug\netcoreapp3.1\DivisionGroups.dll
 C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\bin\Debug\netcoreapp3.1\DivisionGroups.pdb
-C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\obj\Debug\netcoreapp3.1\DivisionGroups.csprojAssemblyReference.cache
 C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\obj\Debug\netcoreapp3.1\DivisionGroups.AssemblyInfoInputs.cache
 C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\obj\Debug\netcoreapp3.1\DivisionGroups.AssemblyInfo.cs
 C:\Users\Jeffrey Grassals\Source\Repos\GroupsDivision\DivisionGroups\obj\Debug\netcoreapp3.1\DivisionGroups.csproj.CoreCompileInputs.cache
